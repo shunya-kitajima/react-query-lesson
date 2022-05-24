@@ -9,7 +9,7 @@ const Layout: VFC<Props> = ({ children }) => {
   return (
     <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 font-mono">
       <header>
-        <nav className="bg-gray-800 w-sreen">
+        <nav className="bg-gray-800 w-screen">
           <div className="flex items-center pl-8 h-14">
             <div className="flex space-x-4">
               <Link
