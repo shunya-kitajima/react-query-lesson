@@ -25,5 +25,3 @@ export const useClassicalFetch = () => {
 
   return { tasks, isLoading, isError }
 }
-
-export default useClassicalFetch
