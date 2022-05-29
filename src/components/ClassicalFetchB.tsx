@@ -19,7 +19,7 @@ const ClassicalFetchB: VFC = () => {
         onClick={() => navigate('/fetch-a')}
         className="h-5 w-5 mt-2 text-blue-500 cursor-pointer"
       />
-      <p className="text-sm">fetch A</p>
+      <p className="text-sm">fetch B</p>
     </div>
   )
 }
