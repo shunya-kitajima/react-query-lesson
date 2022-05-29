@@ -8,8 +8,12 @@ interface StateContextType {
   setDark: React.Dispatch<React.SetStateAction<boolean>>
 }
 
+type Props = {
+  children?: React.ReactNode
+}
+
 const StateContext = createContext({} as StateContextType)
-export const StateProvider: React.FC = ({ children }) => {
+export const StateProvider: React.FC<Props> = ({ children }) => {
   const [tasks, setTasks] = useState<Task[] | null>(null)
   const [dark, setDark] = useState(false)
   return (
