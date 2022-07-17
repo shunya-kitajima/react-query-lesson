@@ -17,7 +17,7 @@ const ReactQueryB: VFC = () => {
         <p key={task.id}>{task.title}</p>
       ))}
       <ChevronDoubleRightIcon
-        onClick={() => navigate('/query-a')}
+        onClick={() => navigate('/')}
         className="h-5 w-5 mt-2 text-blue-500 cursor-pointer"
       />
       <p className="text-sm">react query A</p>
