@@ -20,7 +20,7 @@ const ReactQueryA: VFC = () => {
         onClick={() => navigate('/query-b')}
         className="h-5 w-5 mt-2 text-blue-500 cursor-pointer"
       />
-      <p className="text-sm">fetch B</p>
+      <p className="text-sm">react query B</p>
     </>
   )
 }
