@@ -1,7 +1,7 @@
 import { VFC } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { ReactQueryDevtools } from 'react-query-devtools'
+import { ReactQueryDevtools } from 'react-query/devtools'
 import Layout from './components/Layout'
 import ClassicalFetchA from './components/ClassicalFetchA'
 import ClassicalFetchB from './components/ClassicalFetchB'
