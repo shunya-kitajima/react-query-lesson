@@ -8,9 +8,9 @@ const ClassicalFetchA: VFC = () => {
   const navigate = useNavigate()
   const { isLoading, isError, tasks } = useClassicalFetch()
   console.log('rendered ClassicalFetchA')
+
   if (isLoading) return <div>{'Loading...'}</div>
   if (isError) return <div>{'Error'}</div>
-
   return (
     <div className="flex justify-center items-center flex-col">
       <p className="text-center font-bold mb-3">ClassicalFetchA</p>
