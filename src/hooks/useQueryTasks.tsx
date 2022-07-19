@@ -12,7 +12,7 @@ export const useQueryTasks = () => {
   return useQuery<Task[], Error>({
     queryKey: 'tasks',
     queryFn: getTasks,
-    cacheTime: 30000,
-    staleTime: 30000,
+    cacheTime: 10000,
+    staleTime: 0,
   })
 }
