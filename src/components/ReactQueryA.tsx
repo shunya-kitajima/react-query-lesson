@@ -7,6 +7,7 @@ import { useQueryTasks } from '../hooks/useQueryTasks'
 const ReactQueryA: VFC = () => {
   const navigate = useNavigate()
   const { status, data } = useQueryTasks()
+  console.log('rendered ReactQueryA')
 
   if (status === 'loading') return <div>{'Loading...'}</div>
   if (status === 'error') return <div>{'Error'}</div>

@@ -9,6 +9,7 @@ const ReactQueryB: VFC = () => {
   const navigate = useNavigate()
   const queryClient = useQueryClient()
   const data = queryClient.getQueryData<Task[]>('tasks')
+  console.log('rendered ReactQueryB')
 
   return (
     <>
