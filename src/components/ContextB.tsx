@@ -4,7 +4,7 @@ import { useStateContext } from '../context/StateProvider'
 
 const ContextB: VFC = () => {
   const { setDark } = useStateContext()
-  console.log('rendered ContextA')
+  console.log('rendered ContextB')
 
   return (
     <div className="flex justify-center items-center flex-col">
