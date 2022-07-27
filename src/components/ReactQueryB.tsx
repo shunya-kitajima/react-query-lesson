@@ -1,4 +1,4 @@
-import { useQueryClient } from 'react-query'
+import { useQueryClient } from '@tanstack/react-query'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
@@ -7,7 +7,7 @@ import { Task } from '../types/types'
 const ReactQueryB: React.FC = () => {
   const navigate = useNavigate()
   const queryClient = useQueryClient()
-  const data = queryClient.getQueryData<Task[]>('tasks')
+  const data = queryClient.getQueryData<Task[]>(['tasks'])
   console.log('rendered ReactQueryB')
 
   return (

@@ -1,4 +1,4 @@
-import { useQuery } from 'react-query'
+import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 
 import { Task } from '../types/types'
@@ -10,7 +10,7 @@ const getTasks = async () => {
 
 export const useQueryTasks = () => {
   return useQuery<Task[], Error>({
-    queryKey: 'tasks',
+    queryKey: ['tasks'],
     queryFn: getTasks,
     cacheTime: 10000,
     staleTime: 0,
