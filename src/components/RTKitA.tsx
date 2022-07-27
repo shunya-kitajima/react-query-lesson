@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import { useAppSelector, useAppDispatch } from '../app/hooks'
 import { increment, selectCount } from '../slices/counterSlice'
 

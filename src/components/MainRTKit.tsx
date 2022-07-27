@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import RTKitA from './RTKitA'
 import RTKitB from './RTKitB'
 import RTKitC from './RTKitC'

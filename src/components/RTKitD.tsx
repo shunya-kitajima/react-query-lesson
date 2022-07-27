@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import { useAppSelector } from '../app/hooks'
 import { selectMode } from '../slices/counterSlice'
 

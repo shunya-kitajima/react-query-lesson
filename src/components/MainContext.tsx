@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import ClassicalFetchA from './ClassicalFetchA'
 import ClassicalFetchB from './ClassicalFetchB'
 import ContextA from './ContextA'

@@ -1,4 +1,3 @@
-import { React.FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 

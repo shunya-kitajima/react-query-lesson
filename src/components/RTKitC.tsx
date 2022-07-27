@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import { useAppDispatch } from '../app/hooks'
 import { toggleMode } from '../slices/counterSlice'
 

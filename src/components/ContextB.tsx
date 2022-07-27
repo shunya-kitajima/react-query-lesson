@@ -1,5 +1,3 @@
-import { React.FC } from 'react'
-
 import { useStateContext } from '../context/StateProvider'
 
 const ContextB: React.FC = () => {
