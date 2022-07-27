@@ -1,10 +1,10 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
 import { useQueryTasks } from '../hooks/useQueryTasks'
 
-const ReactQueryA: VFC = () => {
+const ReactQueryA: React.FC = () => {
   const navigate = useNavigate()
   const { status, data } = useQueryTasks()
   console.log('rendered ReactQueryA')

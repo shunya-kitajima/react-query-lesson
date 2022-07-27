@@ -1,11 +1,11 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 import { useQueryClient } from 'react-query'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
 import { Task } from '../types/types'
 
-const ReactQueryB: VFC = () => {
+const ReactQueryB: React.FC = () => {
   const navigate = useNavigate()
   const queryClient = useQueryClient()
   const data = queryClient.getQueryData<Task[]>('tasks')

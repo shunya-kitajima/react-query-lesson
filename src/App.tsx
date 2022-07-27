@@ -1,4 +1,4 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools'
@@ -20,7 +20,7 @@ const queryClient = new QueryClient({
   },
 })
 
-const App: VFC = () => {
+const App: React.FC = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>

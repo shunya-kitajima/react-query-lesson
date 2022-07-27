@@ -1,8 +1,8 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 
 import { useStateContext } from '../context/StateProvider'
 
-const ContextA: VFC = () => {
+const ContextA: React.FC = () => {
   const { dark, setDark } = useStateContext()
   console.log('rendered ContextA')
 

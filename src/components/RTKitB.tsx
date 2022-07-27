@@ -1,9 +1,9 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 
 import { useAppDispatch } from '../app/hooks'
 import { increment } from '../slices/counterSlice'
 
-const RTKitB: VFC = () => {
+const RTKitB: React.FC = () => {
   const dispatch = useAppDispatch()
   console.log('rendered RTKitB')
 

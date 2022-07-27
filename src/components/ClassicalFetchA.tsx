@@ -1,10 +1,10 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
 import { useClassicalFetch } from '../hooks/useClassicalFetch'
 
-const ClassicalFetchA: VFC = () => {
+const ClassicalFetchA: React.FC = () => {
   const navigate = useNavigate()
   const { isLoading, isError, tasks } = useClassicalFetch()
   console.log('rendered ClassicalFetchA')

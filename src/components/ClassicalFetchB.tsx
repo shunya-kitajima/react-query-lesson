@@ -1,10 +1,10 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
 import { useStateContext } from '../context/StateProvider'
 
-const ClassicalFetchB: VFC = () => {
+const ClassicalFetchB: React.FC = () => {
   const navigate = useNavigate()
   const { tasks } = useStateContext()
   console.log('rendered ClassicalFetchB')

@@ -1,9 +1,9 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 
 import { useAppDispatch } from '../app/hooks'
 import { toggleMode } from '../slices/counterSlice'
 
-const RTKitC: VFC = () => {
+const RTKitC: React.FC = () => {
   const dispatch = useAppDispatch()
   console.log('rendered RTKitC')
 

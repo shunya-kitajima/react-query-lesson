@@ -1,9 +1,9 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 
 import { useAppSelector, useAppDispatch } from '../app/hooks'
 import { increment, selectCount } from '../slices/counterSlice'
 
-const RTKitA: VFC = () => {
+const RTKitA: React.FC = () => {
   const count = useAppSelector(selectCount)
   const dispatch = useAppDispatch()
   console.log('rendered RTKitA')

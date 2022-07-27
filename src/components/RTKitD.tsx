@@ -1,9 +1,9 @@
-import { VFC } from 'react'
+import { React.FC } from 'react'
 
 import { useAppSelector } from '../app/hooks'
 import { selectMode } from '../slices/counterSlice'
 
-const RTKitD: VFC = () => {
+const RTKitD: React.FC = () => {
   const mode = useAppSelector(selectMode)
   console.log('rendered RTKitD')
 
